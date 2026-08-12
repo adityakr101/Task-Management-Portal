@@ -244,6 +244,34 @@ Example:
 
 10. Screenshots
 User Registration
-<img width="751" height="537" alt="Screenshot 2026-08-13 002818" src="https://github.com/user-attachments/assets/29bd4a7c-ef26-4ac8-bba0-77f73dd1e06c" />
+## Screenshots
+
+### User Registration
+
+![User Registration](screenshots/UserRegistration.png)
+
+### Login
+
+![Login](screenshots/Login.png)
+
+### Create Task
+
+![Create Task](screenshots/Create-Task.png)
+
+### Get All Tasks
+
+![Get Tasks](screenshots/Get-Tasks.png)
+
+### Get Task By ID
+
+![Get Task By ID](screenshots/Get-TaskById.png)
+
+### Update Task
+
+![Update Task](screenshots/Update-Task.png)
+
+### Delete Task
+
+![Delete Task](screenshots/Delete-Task.png)
 
 
