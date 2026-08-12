@@ -275,3 +275,121 @@ User Registration
 ![Delete Task](screenshots/Delete-Task.png)
 
 
+## 3. Tech Stack Used
+
+### Backend
+
+- Java 21
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- Spring Security
+- JWT
+- Lombok
+
+### Database
+
+- MySQL
+
+### Build Tool
+
+- Maven
+
+### Development & Testing Tools
+
+- Eclipse
+- Postman
+- Git
+- GitHub
+
+---
+
+## 4. Dependencies
+
+The following dependencies are used in this project:
+
+| Dependency | Purpose |
+|---|---|
+| Spring Boot Starter Web | Creating REST APIs and handling HTTP requests |
+| Spring Boot Starter Data JPA | Database operations using JPA |
+| Spring Boot Starter Security | Authentication and security |
+| MySQL Connector/J | Connecting Spring Boot with MySQL |
+| Lombok | Reducing boilerplate code such as getters, setters and constructors |
+| JJWT API | Creating and parsing JWT tokens |
+| JJWT Implementation | JWT implementation |
+| JJWT Jackson | JSON processing for JWT |
+| Spring Boot Starter Validation | Validating request data |
+| Spring Boot Starter Test | Testing the application |
+
+### Maven Dependencies
+
+The main dependencies used in `pom.xml` are:
+
+```xml
+<dependencies>
+
+    <!-- Spring Boot Web -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <!-- Spring Data JPA -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
+    <!-- Spring Security -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
+
+    <!-- MySQL -->
+    <dependency>
+        <groupId>com.mysql</groupId>
+        <artifactId>mysql-connector-j</artifactId>
+        <scope>runtime</scope>
+    </dependency>
+
+    <!-- Validation -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-validation</artifactId>
+    </dependency>
+
+    <!-- Lombok -->
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <optional>true</optional>
+    </dependency>
+
+    <!-- JWT API -->
+    <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-api</artifactId>
+        <version>0.12.6</version>
+    </dependency>
+
+    <!-- JWT Implementation -->
+    <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-impl</artifactId>
+        <version>0.12.6</version>
+        <scope>runtime</scope>
+    </dependency>
+
+    <!-- JWT Jackson -->
+    <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-jackson</artifactId>
+        <version>0.12.6</version>
+        <scope>runtime</scope>
+    </dependency>
+
+</dependencies>
+
+
